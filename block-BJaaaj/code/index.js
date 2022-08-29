@@ -27,7 +27,7 @@ newUser="name";
 // Set the value of `isAdmin` to `true`.
 isAdmin=true;
 // Alert the values of all the three variables.
-alert(name + ""+ newUser + isAdmin)
+alert(name + "" + newUser + isAdmin)
 // Assignment and re-assignment
 
 var wiseMan = "Tyrion Lannister";

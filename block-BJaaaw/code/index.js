@@ -37,10 +37,10 @@ alert( "number2 is greater")
   - `else` print the message " All men must die"
 */
 let houseName = prompt('House Name');
-if (houseName == "stark") {
+if (houseName === "stark") {
   alert("Winter is Coming");
 } 
-else if (houseName == "lannister") {
+else if (houseName === "lannister") {
   alert("A lannister always pays his debt")
 }
 else {

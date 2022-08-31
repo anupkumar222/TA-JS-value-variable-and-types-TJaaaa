@@ -36,7 +36,7 @@ for (let j = 0; j <= 10; j++) {
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
 for (let iii = 9; iii >= 0; iii--) {
-    if(iii % 2 != 0) {
+    if(iii % 2 !== 0) {
         console.log(iii);
     }
 }
@@ -53,7 +53,7 @@ for (let iii = 9; iii >= 0; iii--) {
     let ii = 10;
     let jj = "";
     while (ii >= 0) {
-        if(ii % 2 == 0) {
+        if(ii % 2 === 0) {
             jj = jj + String(ii);
         }
         ii--;
